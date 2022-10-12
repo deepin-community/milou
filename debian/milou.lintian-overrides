@@ -1,0 +1,2 @@
+milou: package-name-doesnt-match-sonames libmilou5
+milou: no-symbols-control-file usr/lib/*/libmilou.so.*

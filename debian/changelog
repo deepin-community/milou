@@ -1,0 +1,520 @@
+milou (4:5.23.3-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 10 Nov 2021 08:40:18 +0900
+
+milou (4:5.23.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Update upstream signing-key.
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.1).
+  * New upstream release (5.23.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Nov 2021 22:21:03 +0900
+
+milou (4:5.23.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.0).
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 14 Oct 2021 20:13:15 +0900
+
+milou (4:5.21.5-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Release to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 17 Aug 2021 03:24:27 +0200
+
+milou (4:5.21.5-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.5).
+
+ -- Patrick Franz <patfra71@gmail.com>  Fri, 07 May 2021 13:55:05 +0200
+
+milou (4:5.21.4-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.4).
+
+ -- Patrick Franz <patfra71@gmail.com>  Tue, 06 Apr 2021 17:47:25 +0200
+
+milou (4:5.21.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Mar 2021 05:49:42 +0900
+
+milou (4:5.21.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Mar 2021 05:33:50 +0900
+
+milou (4:5.21.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.1).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 24 Feb 2021 14:36:40 +0900
+
+milou (4:5.21.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:27 +0900
+
+milou (4:5.20.5-1) unstable; urgency=medium
+
+  * New upstream release (5.20.5).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 06 Jan 2021 23:50:52 +0900
+
+milou (4:5.20.4-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 11:04:37 +0900
+
+milou (4:5.20.4-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.20.4).
+  * Update build-deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 09 Dec 2020 14:17:32 +0900
+
+milou (4:5.19.5-3) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 06 Nov 2020 08:37:23 +0900
+
+milou (4:5.19.5-2) experimental; urgency=medium
+
+  * Rebuild for Qt 5.15
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 02 Nov 2020 09:27:41 +0900
+
+milou (4:5.19.5-1) experimental; urgency=medium
+
+  * New upstream release (5.19.5).
+  * Add Patrick and myself to uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 19 Oct 2020 13:53:30 +0900
+
+milou (4:5.19.4-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Scarlett Moore ]
+  * Bump compat level to 13.
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.18.5).
+  * Update build-deps and deps with the info from cmake.
+  * Remove not needed injection of linker flags.
+  * Add myself to Uploaders.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Set/Update field Upstream-Contact in debian/copyright.
+
+  [ Norbert Preining ]
+  * New upstream release (5.19.4).
+  * Remove Maximiliano from Uploaders as requested on IRC.
+  * Change maintainer in d/control to Debian Qt/KDE Maintainers.
+  * Update build-deps with the info from cmake.
+  * Drop unneeded breaks and replaces.
+  * Update upstream metadata.
+  * Enable hardening for builds.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 30 Aug 2020 00:16:51 +0200
+
+milou (4:5.17.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * Bump Standards-Version to 4.5.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Feb 2020 22:04:10 +0100
+
+milou (4:5.17.5-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.16.5).
+  * Salsa CI automatic initialization by Tuco
+  * Update build-deps and deps with the info from cmake
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Update the build dependencies according to the upstream build system:
+    - bump KF packages to 5.62.0
+    - add libkf5itemmodels-dev, new requirement
+    - remove unused qtscript5-dev
+    - explicitly add gettext
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Use https for Format in copyright.
+  * Drop the migration from milou-dbg, no more needed after two Debian stable
+    releases.
+  * Bump Standards-Version to 4.4.1, no changes required.
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 19 Jan 2020 12:02:23 +0100
+
+milou (4:5.14.5-1) unstable; urgency=medium
+
+  * New upstream release (5.14.5).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 24 Jan 2019 09:26:01 -0300
+
+milou (4:5.14.3-1) unstable; urgency=medium
+
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (4:5.14)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:51:02 -0300
+
+milou (4:5.13.5-1) unstable; urgency=medium
+
+  * New upstream release (5.13.5).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Sep 2018 20:40:36 +0200
+
+milou (4:5.13.4-1) unstable; urgency=medium
+
+  * New upstream release (5.13.4).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:18:10 +0200
+
+milou (4:5.13.1-1) unstable; urgency=medium
+
+  * New upstream release (5.13.1).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (4:5.13)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:12 +0200
+
+milou (4:5.12.4-1) unstable; urgency=medium
+
+  * New upstream release (5.12.2).
+  * New upstream release (5.12.4).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 18:12:48 +0200
+
+milou (4:5.12.1-1) sid; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 22:08:58 +0100
+
+milou (4:5.12.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:46 +0100
+
+milou (4:5.12.0-1) experimental; urgency=medium
+
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Add link options as-needed
+  * Add Bhushan Shah upstream signing key
+  * New upstream release (5.12.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.3.
+  * Bump group breaks (5.12)
+  * Use https uri for uscan
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Feb 2018 15:20:56 +0100
+
+milou (4:5.11.4-1) experimental; urgency=medium
+
+  * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:07 -0300
+
+milou (4:5.10.5-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:55:36 +0200
+
+milou (4:5.10.5-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.3).
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Bump group breaks (5.10)
+  * New upstream release (5.10.4).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.10.5).
+  * Release to experimental
+
+  [ Jonathan Riddell ]
+  * add gpg keyring
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:28:40 +0200
+
+milou (4:5.8.5-1) experimental; urgency=medium
+
+  * New upstream release (5.8.5).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:20 +0100
+
+milou (4:5.8.4-1) unstable; urgency=medium
+
+  * New upstream release (5.8.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:37:34 +0100
+
+milou (4:5.8.2-1) unstable; urgency=medium
+
+  * New upstream release (5.8.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:23:23 +0200
+
+milou (4:5.8.1-1) unstable; urgency=medium
+
+  * New upstream release (5.8.1)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 22:59:13 +0200
+
+milou (4:5.8.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.8.0)
+  * Bump group breaks (5.8)
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update install files
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:05:16 +0200
+
+milou (4:5.7.4-1) unstable; urgency=medium
+
+  * New upstream release (5.7.4)
+  * Bump group breaks (5.7)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 15:05:16 +0200
+
+milou (4:5.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Jul 2016 08:19:45 +0200
+
+milou (4:5.6.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 13:55:28 +0200
+
+milou (4:5.6.4-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Force installing in debian/tmp
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 20:13:17 +0200
+
+milou (4:5.5.4-1) experimental; urgency=medium
+
+  * New upstream release (5.5.0).
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:49:14 +0100
+
+milou (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:46:04 +0100
+
+milou (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:22 +0200
+
+milou (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:39 +0200
+
+milou (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 17:37:38 +0200
+
+milou (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 22:48:18 +0200
+
+milou (4:5.3.1-0ubuntu1) wily; urgency=medium
+
+  [ Jonathan Riddell ]
+  * Plasma 5.3 beta
+  * new upstream release
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:36:55 +0200
+
+milou (4:5.3.1-1) unstable; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 10:43:11 +0200
+
+milou (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * New patch: missing_package
+  * New upstream release (5.2.2).
+  * Remove patch: missing_package
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:56 +0100
+
+milou (4:5.2.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:36:05 -0700
+
+milou (4:5.2.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:44:40 -0800
+
+milou (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add myself as Uploader.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Update install files.
+  * Update watch file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 14:27:39 +0100
+
+milou (4:5.2.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 27 Jan 2015 14:56:05 +0100
+
+milou (4:5.1.95-0ubuntu1) vivid; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Jan 2015 01:33:37 +0100
+
+milou (4:5.1.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Dec 2014 13:24:42 +0100
+
+milou (4:5.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+
+  [Jonathan Riddell]
+  * Remove provides plasma-widget-milou-kf5, it already breaks/replaces it
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:50:15 +0100
+
+milou (4:5.0.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream bugfix release
+
+  [ Harald Sitter ]
+  * switch to new pkg-kde-tools
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Sep 2014 07:25:02 -0700
+
+milou (4:5.0.0-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Scarlett Clark ]
+  * Clean up copyright
+  * Add lintian override so-name match.
+  * Add stable to watch
+  * Update watch to http://download.kde.org
+
+  [ Harald Sitter ]
+  * Clean build dependencies (drop everything not actually needed)
+  * Rename binary package to milou as it contains the widget, a lib and a
+    qml module.
+    + Breaks, replaces, provides plasma-widget-milou-kf5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:29:02 +0200
+
+milou (4:4.98.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 14:41:40 +0200
+
+milou (4:4.96.0-0ubuntu1) utopic; urgency=medium
+
+  * Initial release.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 23 May 2014 15:37:53 +0000
